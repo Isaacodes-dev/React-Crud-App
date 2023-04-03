@@ -24,7 +24,7 @@ const EmpDetails = () =>{
           <form className="container">
             <div className="card" style={{ textAlign: "left" }}>
               <div className="card-title">
-                <h2 style={{ marginleft: "12px" }}>Emplyee Create</h2>
+                <h2 style={{ marginleft: "12px" }}>Emplyee Details</h2>
               </div>
               {empdata && 
               <div className="card-body">

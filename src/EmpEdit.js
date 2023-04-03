@@ -40,7 +40,7 @@ const EmpEdit = () =>{
           <form className="container" onSubmit={handlesubmit}>
             <div className="card" style={{ textAlign: "left" }}>
               <div className="card-title">
-                <h2 style={{ marginleft: "12px" }}>Emplyee Create</h2>
+                <h2 style={{ marginleft: "12px" }}>Emplyee Edit</h2>
               </div>
               {empdata && 
               <div className="card-body">

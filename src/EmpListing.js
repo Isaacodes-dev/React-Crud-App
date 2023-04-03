@@ -25,6 +25,7 @@ const EmpListing = () => {
             icon: "success",
           });
           axios.delete(`http://localhost:8000/employee/${id}`);
+          window.location.reload(true); 
         } else {
           swal("Error Occured while removing user!");
         }
