@@ -31,7 +31,7 @@ const EmpListing = () => {
       });
   }
   const editDetail=(id)=>{
-
+    navigate("/employee/edit/"+id);
   }
   useEffect(() => {
     axios
@@ -40,7 +40,7 @@ const EmpListing = () => {
         empdatachange(response.data);
       })
       .catch((error) => {
-        console.log(error.message);
+        swal("Opps!", "An Error occured while loading users", "error");
       });
   }, []);
   return (
